@@ -12,7 +12,7 @@ const {
 router.get("/", getAllTravels);
 
 // add one book
-router.post("/", addTravelBook);
+router.post("/add", addTravelBook);
 
 // get one travel book
 router.get("/:id", getTravelById);
